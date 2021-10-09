@@ -51,6 +51,7 @@
       input {
         background-color: #272727;
         border: 1px solid #333333;
+        color: var(--color-white);
 
         &::placeholder {
           color: var(--color-white);
@@ -304,9 +305,13 @@ footer {
 .theme-toggle {
   display: block;
   position: absolute;
-  right: 50px;
-  top: 30px;
+  right: 20px;
+  top: 20px;
   display: flex;
+  @media screen and (min-width: 600px) {
+    right: 50px;
+    top: 30px;
+  }
 
   .toggle-container {
     width: 40px;

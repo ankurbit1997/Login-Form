@@ -6,7 +6,6 @@ import FacebookIcon from "../assets/facebook-f-brands.svg";
 import GoogleIcon from "../assets/google-brands.svg";
 
 const Form = ({ dark }) => {
-  console.log(dark);
   return (
     <div className={!dark ? "form" : "form dark"}>
       <h1>Login</h1>
