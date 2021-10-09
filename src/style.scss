@@ -249,7 +249,7 @@
         width: 100%;
         height: 1px;
         position: absolute;
-        border-top: 2px dashed;
+        border-top: 2px dashed rgba($color: #000000, $alpha: 0.1);
         top: 50%;
       }
     }
