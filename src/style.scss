@@ -200,6 +200,11 @@
       font-size: 16px;
       margin-bottom: 30px;
     }
+
+    &:hover {
+      transform: scale(1.01);
+      background: linear-gradient(180deg, #f66353 100%, #dd3279 0%);
+    }
     background: linear-gradient(90deg, #f66353 0%, #dd3279 100%);
   }
 
@@ -321,6 +326,8 @@ footer {
     position: relative;
     border-radius: 100px;
     transition: all 0.3s linear;
+    cursor: pointer;
+
     span {
       position: absolute;
       height: 16px;
