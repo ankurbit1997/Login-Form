@@ -1,0 +1,21 @@
+//css reset
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: var(--font-primary);
+}
+
+//font import
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600&display=swap");
+
+//variable
+
+:root {
+  --font-primary: "Inter", sans-serif;
+  --color-red: #f56155;
+  --color-grey: #de3478;
+  --color-dark: #333333;
+  --color-white: #ffffff;
+}
