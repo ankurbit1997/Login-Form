@@ -3,7 +3,7 @@ import Footer from "./components/footer";
 
 import Form from "./components/form";
 import "./style.scss";
-
+//checking
 const App = () => {
   const [dark, setDark] = useState(false);
 
